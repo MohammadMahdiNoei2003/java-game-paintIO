@@ -32,7 +32,7 @@ public class Player extends Entity{
         }
     }
     public void draw(Graphics2D g2) {
-        g2.setColor(Color.white);
+        g2.setColor(Color.blue);
         g2.fillRect(x, y, gamePanel.tileSize, gamePanel.tileSize);
     }
 }
